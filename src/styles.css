@@ -78,3 +78,14 @@ section p {
   margin-top: 25px;
   justify-content: flex-end;
 }
+/* about */
+.about-container {
+  display: flex;
+}
+.img-container {
+  align-self: center;
+}
+.img-container img {
+  max-width: 400px;
+  transform: rotate(90deg);
+}
