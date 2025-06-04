@@ -1,5 +1,12 @@
-import { displayHomeTab } from "./home.js";
 import "./styles.css";
-import doughnutImage from "./assets/nik-YpsnJ6eGjVs-unsplash.jpg";
+import { displayHomeTab } from "./home.js";
 
-console.log("Hello World!");
+const navigation = document.querySelectorAll("nav > button");
+
+navigation.forEach((button) => {
+  button.addEventListener("click", changePage);
+});
+
+function changePage() {
+  console.log("hi");
+}
