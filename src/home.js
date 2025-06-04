@@ -35,4 +35,3 @@ export function displayHomeTab() {
   imageDiv.append(image);
   contentDiv.append(imageDiv);
 }
-displayHomeTab();
