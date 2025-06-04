@@ -11,15 +11,10 @@ body {
   font-size: 1.6rem;
 }
 #container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
   min-height: 100vh;
   background-color: bisque;
 }
 header {
-  grid-column: 1 / -1;
-  grid-row: 1 / 3;
   background-color: #3f322b;
   display: flex;
   justify-content: center;
@@ -55,4 +50,31 @@ ul {
 }
 .image-div img {
   max-width: 400px;
+}
+/* menu styling */
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  padding: 25px;
+  max-width: 450px;
+}
+section p {
+  margin-left: 0;
+  padding: 0;
+}
+.menu-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  font-weight: bold;
+}
+.menu-desc {
+  font-style: italic;
+}
+.price {
+  margin-top: 25px;
+  justify-content: flex-end;
 }
